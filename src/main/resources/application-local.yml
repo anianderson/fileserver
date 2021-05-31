@@ -1,0 +1,9 @@
+localpath: /fileserver/files
+temppath: /fileserver/temp
+executors:
+  enabled: true
+  archival:
+    path: /fileserver/archives
+    days: 30
+  deletion:
+    days: 15
